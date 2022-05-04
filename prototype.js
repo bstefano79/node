@@ -1,3 +1,4 @@
+//Le arrow function non vanno usate come metodi
 var v=[1,2,3];
 //v.myfunction();  output --> error v.myfunction is not a function
 
