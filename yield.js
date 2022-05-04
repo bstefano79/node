@@ -8,6 +8,7 @@ let funzione = function* () {
     }
 }
 const iteratore = funzione();
+console.log('iniziamo........');
 console.log(iteratore.next().value);
 console.log(iteratore.next().value);
 console.log(iteratore.next().value);
