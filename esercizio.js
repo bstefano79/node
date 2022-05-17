@@ -26,4 +26,4 @@ let risultato = v.reduce((res,p)=>{
 },{key:{}, value : []});
 //il vettore risultato lo inizializzo a vettore vuoto []
 
-//console.log(risultato.value);
+console.log(risultato.value);
