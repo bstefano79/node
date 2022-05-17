@@ -6,6 +6,8 @@ let v = [
     { name:"persona3", costi:1234, spese:2345},
 ];
 
+
+
 let risultato = v.reduce((res,p)=>{
     //nel vettore res è presente la chiave con il nome?
     if(res[p.name]){
@@ -19,7 +21,7 @@ let risultato = v.reduce((res,p)=>{
     //ritorno il vettore
     return res;
     
-},[]);
+},{});
 //il vettore risultato lo inizializzo a vettore vuoto []
 
 console.log(risultato);
