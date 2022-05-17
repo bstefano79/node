@@ -13,7 +13,7 @@ let risultato = v.reduce((res,p)=>{
         res[p.name].costi+=p.costi;
         res[p.name].spese+=p.spese;
     }else{
-        //non è presente assegno la l'oggetto alla posizione col nome
+        //non è presente assegno l'oggetto alla posizione col nome
         res[p.name] = p;
     }
     //ritorno il vettore
